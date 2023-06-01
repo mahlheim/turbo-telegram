@@ -2,7 +2,6 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     background-color: lemonchiffon;
-    box-sizing: border-box;
 }
 
 .header-image {
@@ -20,33 +19,64 @@
     justify-content: flex-start;
     background-color: transparent;
     color: black;
- 
 }
 
 nav {
+    display: flex;
     justify-content: flex-end;
-   
 }
   
 
-body {
+.about-me {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.monique {
+    justify-content: flex-start;
+    max-height: 500px;
 }
 
 main {
- 
+
 }
 
 .work {
-
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .projects {
-   
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+
+.projects header {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
 }
 
 footer {
-    display: flexbox;
+    text-align: center;
+}
 
+footer h2 {
+    display: flex;
+    justify-content: center;
+}
 
+.contact-me {
+    display: flex;
+    justify-content: space-evenly;
 }
