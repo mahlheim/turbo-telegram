@@ -1,0 +1,52 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: lemonchiffon;
+    box-sizing: border-box;
+}
+
+.header-image {
+    display: flex;
+    background-image: url("../assets/header.jpg");
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+}
+
+.header-text {
+    justify-content: flex-start;
+    background-color: transparent;
+    color: black;
+ 
+}
+
+nav {
+    justify-content: flex-end;
+   
+}
+  
+
+body {
+
+}
+
+main {
+ 
+}
+
+.work {
+
+}
+
+.projects {
+   
+}
+
+footer {
+    display: flexbox;
+
+
+}
