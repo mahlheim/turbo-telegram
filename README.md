@@ -16,6 +16,8 @@ url: https://mahlheim.github.io/turbo-telegram/
 
     ![screengrab](assets/screengrab.png) 
 
+![screengrab](assets/screengrab.png) 
+
 ## Credits 
 Below are websites that I referenced while building this site: 
 
