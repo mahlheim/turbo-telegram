@@ -10,32 +10,41 @@
 
 <body>
     <header>
-    <section class="header-image">
-    <section class="header-text">
         <h1>Monique Ahlheim</h1>
         <nav>
-            <a>About Me</a>
-            <a>Work</a>
-            <a>Contact Me</a>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
         </nav>
-    </section>
-    </section>
     </header>
+
+    <section class="image"></section>
 
     <main>
 
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <h2>About Me</h2>
             <img src="./assets/monique.jpg" class="monique" alt="image of monique">
             <p>Hello, my name is Monique! I am currently a student in the Full Stack Developer program at UNC Charlotte. Thanks for checking out my work!</p>
         </section>
 
+        <section class="image"></section>
+
         <section class="work">
             <h2>Work</h2>
-            <section class="projects">
+            <section id="projects" class="projects">
                 <h3>The Bakery on Main Street</h3>
+                <a href="https://mahlheim.github.io/reimagined-octo-chainsaw/">
                 <img src="./assets/bakery.jpg" alt="baked goods in display case">
-
+                </a>
             </section>
 
             <section class="projects">
@@ -49,11 +58,13 @@
             </section>
         </section>
 
+        <section class="image"></section>
+
         <footer>
             <h2>Contact Me</h2>
-            <section class="contact-me">
-            <p>monique.ahlheim@live.com</p> 
-            <p>GitHub</p>
+            <section id="contact-me" class="contact-me">
+            <a href="mailto:monique.ahlheim@live.com">monique.ahlheim@live.com</a> 
+            <a href="https://github.com/mahlheim">GitHub</a>
             </section>
         </footer>
 

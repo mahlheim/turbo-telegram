@@ -1,49 +1,87 @@
 * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: "Lucida Sans Unicode", "Lucida Grande", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
-    background-color: lemonchiffon;
 }
 
-.header-image {
+header{
     display: flex;
-    background-image: url("../assets/header.jpg");
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    background-size: cover;
+    padding: 15px;
+    background-color: rgb(250, 240, 151);
 }
 
-.header-text {
+h1 {
     justify-content: flex-start;
-    background-color: transparent;
-    color: black;
+    font-size: 50px;
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: auto;
+    float: right;
+    font-size: 20px;
 }
-  
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+.image {
+    display: flex;
+    background-image: url("../assets/header.jpg");
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
 
 .about-me {
     display: flex;
-    justify-content: flex-end;
+    flex: 4;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.about-me h2 {
+    justify-content: flex-start;
+}
+
+.about-me p {
+   font-size: 25px;
+   align-items: center;
 }
 
 .monique {
-    justify-content: flex-start;
-    max-height: 500px;
-}
-
-main {
-
+    height: 500px;
+    width: 100%;
+    background-color: rgb(250, 240, 151);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 15px;
+    flex: 0 0 300px;
+    transform: rotate(-8deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
 }
 
 .work {
     flex: 4;
-    background-color: #fff;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -52,23 +90,36 @@ main {
 }
 
 .projects {
+    background-color: rgb(250, 240, 151);
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 50px;
-    padding: 10px;
+    padding: 10px 15px;
     flex: 0 0 300px;
     transform: rotate(8deg);
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
   }
 
-.projects header {
+.projects h3 {
+    text-align: center;
     border-radius: 50px 50px 0px 0px;
     padding: 20px;
 }
 
+.projects img {
+    border-width: 5px;
+    border-radius: 50px;
+}
+
+.projects:hover {
+    transform: scale(1.2);
+}
+
 footer {
     text-align: center;
+    padding: 20px;
+    background-color: rgb(250, 240, 151);
 }
 
 footer h2 {
@@ -79,4 +130,11 @@ footer h2 {
 .contact-me {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+      flex-direction: column;
+    }
 }
