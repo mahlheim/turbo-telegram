@@ -12,7 +12,9 @@ N/A
 
 Navigate to the website. Read the information in the About Me and Contact Me sections as necessary. Click on the cards in the Work section to navigate to the projects in this portfolio. (As of right now, only the first card has a destination while the other two are temporary placeholders.)
 
+url: https://mahlheim.github.io/turbo-telegram/
 
+screenshot: (assets/screengrab.png) 
 
 ## Credits 
 Below are websites that I referenced while building this site: 
