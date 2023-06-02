@@ -14,7 +14,7 @@ Navigate to the website. Read the information in the About Me and Contact Me sec
 
 url: https://mahlheim.github.io/turbo-telegram/
 
-screenshot: (./assets/screengrab.png) 
+[screenshot] (./assets/screengrab.png) 
 
 ## Credits 
 Below are websites that I referenced while building this site: 
